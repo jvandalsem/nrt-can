@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" href="#">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+		<title>next right thing</title>
+	</head>
+	<body>
+		<div class="header">Next Right Thing</div>
+		<div class="form-wrap">
+			<label for="calender-input"></label>
+			<input type="date" class="date" id='calendar-input'autofocus autocomplete="off" validate>
+			<button type="submit" class="btn" id="add">Go</button>
+		</div>
+		<div class="items"></div>
+		<div class="grid-wrap">
+			<div class="weight-wrap">
+				<h3>Weight</h3>
+			</div>
+			<div class="todo-wrap">
+				<h3>To Do</h3>
+				<div class='todo-list'></div>
+				<div class="add-wrapper">
+					<div class="adder">&#43</div>
+					<div class="todo-form">
+						<label for="todo-text"></label>
+						<input type="text" class="todo-text" placeholder="New Task">
+						<button type="submit" class="todo-go">Add</button>
+					</div>
+				</div>
+			</div>
+			<div class="habitU-wrap"></div>
+			<div class="habitA-wrap"></div>
+			<div class="habitC-wrap"></div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
